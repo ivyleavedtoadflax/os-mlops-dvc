@@ -1,0 +1,11 @@
+md5: 1fa8b74e27f47db9a5110bc2f174c46e
+frozen: true
+deps:
+- path: data/IMDB_movie_ratings_sentiment.csv
+  repo:
+    url: https://github.com/ivyleavedtoadflax/os-mlops-dvc-registry
+    rev_lock: 2ab08d67144d1e8284ba53dea99b58165cdf9a82
+outs:
+- md5: e652be6c3378427b6f3697a463c632de
+  size: 26334514
+  path: IMDB_movie_ratings_sentiment.csv
